@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ucv.cgproject.CoreApplication.ui.SampleAppMenu.SampleAppMenuView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#0000">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="150dp">
+
+		<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="centerCrop"
+			android:src="@drawable/muro"
+			android:contentDescription="@string/muro_de_ciencias" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@android:color/black"
+			android:alpha="0.7" />
+
+		<TextView
+			android:id="@+id/settings_menu_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_alignParentBottom="true"
+			android:padding="@dimen/menu_title_padding"
+			android:text="@string/menu_title"
+			android:textColor="@color/colorAccent"
+			android:textSize="@dimen/menu_title"
+			android:textStyle="bold" />
+
+	</RelativeLayout>
+
+	<ScrollView
+		android:background="#FFF"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/settings_menu"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#0000"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:id="@+id/linear_home"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_margin="25dp"
+					android:src="@drawable/home_blue"
+					android:contentDescription="@string/button_home"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/inicio"
+					android:layout_gravity="center"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="22sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="?android:attr/listDivider" />
+
+			<LinearLayout
+				android:id="@+id/linear_map"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_margin="25dp"
+					android:src="@drawable/map_blue"
+					android:contentDescription="@string/button_home"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/mapa"
+					android:layout_gravity="center"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="22sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="?android:attr/listDivider" />
+
+			<LinearLayout
+				android:id="@+id/linear_locations"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_margin="25dp"
+					android:src="@drawable/location_blue"
+					android:contentDescription="@string/button_home"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/lugares"
+					android:layout_gravity="center"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="22sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="?android:attr/listDivider" />
+
+			<LinearLayout
+				android:id="@+id/linear_images"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+				<ImageView
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_margin="25dp"
+					android:src="@drawable/images_blue"
+					android:contentDescription="@string/button_home"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/imagenes"
+					android:layout_gravity="center"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="22sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="?android:attr/listDivider" />
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</com.ucv.cgproject.CoreApplication.ui.SampleAppMenu.SampleAppMenuView>

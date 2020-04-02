@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white_radius"
+    style="@style/Theme.AppCompat.NoActionBar">
+
+    <LinearLayout
+        android:id="@+id/linear_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:ignore="UselessParent">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
+    
+            <ImageView
+                android:id="@+id/image_arrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/arrow"
+                android:contentDescription="@string/imagen_flecha"/>
+    
+        </LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment,UselessParent">
+    
+                <LinearLayout
+                    android:id="@+id/linear_location0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/auditorio"
+                        android:scaleType="centerCrop"
+                        android:background="@color/colorPrimary"
+                        android:contentDescription="@string/image_auditorio"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_0"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:id="@+id/linear_location1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/banco"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_banco"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_1"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:id="@+id/linear_location2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/biblioteca"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_biblioteca"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_2"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+            </LinearLayout>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment,UselessParent">
+    
+                <LinearLayout
+                    android:id="@+id/linear_location3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/decanato"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_decanato"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_3"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:id="@+id/linear_location4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/escuela"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_escuela"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_4"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:id="@+id/linear_location5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/plaza"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_plaza"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_5"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+            </LinearLayout>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment,UselessParent">
+    
+                <LinearLayout
+                    android:id="@+id/linear_location6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/poliedrito"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_poliedrito"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_6"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:id="@+id/linear_location7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/sala"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/imagen_sala"/>
+    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/location_7"
+                        android:background="@color/colorPrimary"/>
+    
+                </LinearLayout>
+    
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_margin="3dp"
+                    android:visibility="invisible"/>
+    
+            </LinearLayout>
+    
+        </LinearLayout>
+    
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relative_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone">
+        
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/auditorio"/>
+
+        <ImageView
+            android:id="@+id/image_close"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:layout_margin="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/close"
+            android:contentDescription="@string/imagen_close" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

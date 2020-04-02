@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon_menu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/menu_white"
+        android:contentDescription="@string/icon_menu" />
+
+    <ImageView
+        android:id="@+id/icon_flash"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/power_white"
+        android:contentDescription="@string/icon_flash" />
+
+    <ImageView
+        android:id="@+id/icon_zoom_out"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+        android:src="@drawable/zoom_out_white"
+        android:contentDescription="@string/icon_zoom_out" />
+
+    <ImageView
+        android:id="@+id/icon_zoom_in"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+        android:src="@drawable/zoom_in_white"
+        android:layout_above="@+id/icon_zoom_out"
+        android:contentDescription="@string/icon_zoom_in" />
+
+</RelativeLayout>
+

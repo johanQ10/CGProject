@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="brazuca13" size="0.400000 0.343662" />
+    <ImageTarget name="brazuca12" size="0.400000 0.408511" />
+    <ImageTarget name="brazuca11" size="0.400000 0.387302" />
+    <ImageTarget name="brazuca10" size="0.400000 0.403306" />
+    <ImageTarget name="abuela" size="0.500000 0.623724" />
+    <ImageTarget name="abuelo" size="0.500000 0.657088" />
+    <ImageTarget name="tens6" size="0.250000 0.187451" />
+    <ImageTarget name="tens5" size="0.250000 0.188330" />
+    <ImageTarget name="tens4" size="0.150000 0.299902" />
+    <ImageTarget name="tens3" size="0.250000 0.377028" />
+    <ImageTarget name="tens2" size="0.150000 0.299763" />
+    <ImageTarget name="tens1" size="0.250000 0.371011" />
+    <ImageTarget name="paint5" size="0.500000 0.749198" />
+    <ImageTarget name="paint4" size="0.500000 0.683980" />
+    <ImageTarget name="paint3" size="0.500000 0.590177" />
+    <ImageTarget name="paint2" size="0.500000 0.641379" />
+    <ImageTarget name="paint1" size="0.500000 0.693819" />
+    <ImageTarget name="brazuca9" size="0.300000 0.279661" />
+    <ImageTarget name="brazuca8" size="0.300000 0.278551" />
+    <ImageTarget name="brazuca7" size="0.300000 0.306041" />
+    <ImageTarget name="brazuca6" size="0.300000 0.290568" />
+    <ImageTarget name="brazuca5" size="0.300000 0.306177" />
+    <ImageTarget name="brazuca4" size="0.300000 0.301949" />
+    <ImageTarget name="brazuca3" size="0.300000 0.287819" />
+    <ImageTarget name="brazuca2" size="0.300000 0.277841" />
+    <ImageTarget name="brazuca1" size="0.300000 0.291795" />
+    <ImageTarget name="bear2" size="0.200000 0.287219" />
+    <ImageTarget name="bear1" size="0.200000 0.258282" />
+    <ImageTarget name="solar2" size="0.100000 0.235962" />
+    <ImageTarget name="solar1" size="0.100000 0.215084" />
+    <ImageTarget name="reloj3" size="0.150000 0.145782" />
+    <ImageTarget name="reloj2" size="0.400000 0.340611" />
+    <ImageTarget name="reloj1" size="0.400000 0.311475" />
+  </Tracking>
+</QCARConfig>
