@@ -1,0 +1,6 @@
+﻿  Main.cpp
+C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Ejemplo\TextureExample\TextureExample\Main.cpp(445,12): warning C4101:  'v': variable local sin referencia
+C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Ejemplo\TextureExample\TextureExample\Main.cpp(445,9): warning C4101:  'u': variable local sin referencia
+C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Ejemplo\TextureExample\TextureExample\Main.cpp(547,17): warning C4305:  '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Ejemplo\TextureExample\TextureExample\Main.cpp(548,17): warning C4305:  '+=': truncamiento de 'double' a 'GLfloat'
+  TextureExample.vcxproj -> C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Ejemplo\TextureExample\Debug\TextureExample.exe

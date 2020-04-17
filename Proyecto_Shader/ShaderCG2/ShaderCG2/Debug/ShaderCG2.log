@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\minwindef.h(130,1): warning C4005:  'APIENTRY': redefinición de macro
+C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Shader\ShaderCG2\ShaderCG2\GL\glfw3.h(123): message :  vea la definición anterior de 'APIENTRY'
+  ShaderCG2.vcxproj -> C:\Users\johan\Documents\UCV\Postgrado\Computación Gráfica II\Shader\ShaderCG2\Debug\ShaderCG2.exe
